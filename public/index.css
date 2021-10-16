@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 100%;
+    font-family: muli, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display:flex;
+    transition: none; 
+}
+
+body {
+    background: linear-gradient(138.55deg,#FF9671 22.82%,rgba(255,199,95,0.9) 66.15%,rgba(249,248,113,0.53) 98.46%);
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+@media (max-width: 1000px) {
+    * {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        font-size: 40%;
+    }
+}

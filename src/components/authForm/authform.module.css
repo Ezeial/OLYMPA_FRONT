@@ -1,0 +1,96 @@
+.container {
+    background: rgba(40,40,40,0.85);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    height: 60%;
+    min-height: 500px;
+    margin: 2rem;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+}
+
+.sub {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;  
+    flex-direction: column;
+    padding: 1rem;
+    
+    border-radius: 0.5rem;
+    border: solid 2px yellow;  
+}
+
+.input {
+    color: white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.input input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    border:none;
+    font-size:3rem;
+    color: #f1f1f1;
+    width: 25rem;
+    padding: 1rem;
+}
+
+.input label {
+    font-size: 1rem;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    color: #f1f1f1;
+    cursor: pointer;
+    margin: 0.5rem;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    text-align: center;
+
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    background-image: linear-gradient(to right, #f7ca18, #F7A018, #F77918, #F76F18);
+}
+
+.btn:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.link {
+    color: white;
+    position: absolute;
+    bottom: 0.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.link span {
+    color: #f7ca18;
+    font-size: inherit;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        height: auto;
+        min-height: 200px;
+    }
+}
+
